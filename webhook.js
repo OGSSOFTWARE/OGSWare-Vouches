@@ -1,5 +1,3 @@
-import fetch from "node-fetch";
-
 export async function handleSellAuthWebhook(req, res, client) {
   try {
     const { event, data } = req.body;
