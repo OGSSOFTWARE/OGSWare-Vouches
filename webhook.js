@@ -1,3 +1,5 @@
+const response = await fetch("https://api.sellauth.com/v1/feedbacks/...");
+
 export async function handleSellAuthWebhook(req, res, client) {
   try {
     const { event, data } = req.body;
